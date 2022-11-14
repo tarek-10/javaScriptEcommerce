@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -288,4 +288,136 @@ nav {
   clear: both;
 }
 
+/* payment */
+.payment {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px 50px;
+  /* display: flex; */
+  flex-direction: column;
+  box-shadow: 18px -10px 10px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 18px -10px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px -10px 10px 1px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+
+.payTitle {
+  font-size: 20px;
+  color: lightgray;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.payInput {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.cardIcons {
+  display: flex;
+}
+.cardIcon {
+  margin-right: 10px;
+}
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.payInput.sm {
+  width: 30%;
+}
+.payButton {
+  position: absolute;
+  height: 40px;
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+  /* box-shadow: 21px -8px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 21px -8px 9px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 21px -8px 9px 1px rgba(0, 0, 0, 0.75); */
+  background-color: #369e62;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.close{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 2px;
+}
+/* end payment */
+
 /*End product */
+
+
+/* gallery */
+
+.gallery{
+  padding: 50px;
+  display: flex;
+}
+
+.galleryItem{
+  flex: 1;
+  padding: 50px;
+}
+.galleryImg{
+  width: 100%;
+}
+/* /gallery */
+
+/* new season */
+
+.newSeason{
+  display: flex;
+}
+.nsItem{
+  flex: 1;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nsImg{
+  width: 100%;
+  height: 500px;
+}
+
+.nsTitle {
+  font-size: 40px;
+}
+
+.nsButton {
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*end new season */
+
+

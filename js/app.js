@@ -122,3 +122,17 @@ currentProductSizes.forEach((size, index) => {
     size.style.color = "white";
   });
 });
+
+//get model
+
+const payMentBtn = document.querySelector(".productBtn");
+const paymentModel = document.querySelector(".payment");
+const close = document.querySelector(".close");
+
+payMentBtn.addEventListener("click", () => {
+  paymentModel.style.display = "flex";
+});
+
+close.addEventListener("click", () => {
+  paymentModel.style.display = "none";
+});
